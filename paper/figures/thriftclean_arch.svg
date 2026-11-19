@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7.0in" height="2.5in" viewBox="0 0 504.0 180.0" font-family="Times New Roman, Helvetica, Liberation Sans, sans-serif"><defs><marker id="ah0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0,1 L10,5 L0,9 z" fill="#1F2937"/></marker></defs><rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="58" y="22" width="104" height="112" rx="4" fill="#FFFFFF" fill-opacity="1" stroke="#9CA3AF" stroke-width="0.8" stroke-dasharray="3,2"/>
+<text x="63.00" y="31.98" font-size="7.50" fill="#1F2937" font-weight="bold"><tspan x="63.00" dy="0.00" font-size="7.50">Free tiers (no LLM)</tspan></text>
+<rect x="290" y="22" width="112" height="112" rx="4" fill="#FFFFFF" fill-opacity="1" stroke="#9CA3AF" stroke-width="0.8" stroke-dasharray="3,2"/>
+<text x="295.00" y="31.98" font-size="7.50" fill="#1F2937" font-weight="bold"><tspan x="295.00" dy="0.00" font-size="7.50">Escalation tiers (cost </tspan><tspan x="363.11" dy="0.00" font-size="7.50" font-family="Times New Roman" font-style="italic" font-weight="normal">C</tspan><tspan x="368.11" dy="2.10" font-size="5.25" font-family="Times New Roman" font-style="italic" font-weight="normal">t</tspan><tspan x="369.57" dy="-2.10" font-size="7.50">)</tspan></text>
+<path d="M50.00,54.00 L66.00,54.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M50.00,82.00 L66.00,82.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M50.00,110.00 L66.00,110.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M154.00,54.00 L172.00,54.00 L172.00,82.00 L186.00,82.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M154.00,82.00 L186.00,82.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M154.00,110.00 L172.00,110.00 L172.00,82.00 L186.00,82.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M144.00,161.00 L186.00,161.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M218.00,148.00 L218.00,102.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M250.00,82.00 L282.00,82.00 L282.00,49.00 L298.00,49.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M394.00,49.00 L414.00,49.00 L414.00,140.00 L238.00,140.00 L238.00,102.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M250.00,82.00 L298.00,82.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M394.00,82.00 L414.00,82.00 L414.00,140.00 L238.00,140.00 L238.00,102.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M250.00,82.00 L282.00,82.00 L282.00,115.00 L298.00,115.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M394.00,115.00 L414.00,115.00 L414.00,140.00 L238.00,140.00 L238.00,102.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M218.00,62.00 L218.00,10.00 L462.00,10.00 L462.00,64.00" fill="none" stroke="#1F2937" stroke-width="0.9199999999999999" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<rect x="317.2296875" y="0.6999999999999997" width="45.54062499999998" height="7.800000000000001" fill="#FFFFFF" fill-opacity="0.9"/>
+<text x="318.23" y="6.42" font-size="6.50" fill="#6B7280"><tspan x="318.23" dy="0.00" font-size="6.50">accept if </tspan><tspan x="342.05" dy="0.00" font-size="6.50" font-family="Times New Roman" font-style="italic" font-weight="normal">p</tspan><tspan x="345.30" dy="1.82" font-size="4.55" font-family="Times New Roman" font-style="italic" font-weight="normal">best</tspan><tspan x="352.63" dy="-1.82" font-size="6.50" font-family="Times New Roman" font-style="italic" font-weight="normal"> ≥ τ</tspan></text>
+<rect x="4" y="44" width="46" height="76" rx="3" fill="#F3F4F6" stroke="#6B7280" stroke-width="0.8"/>
+<text x="17.08" y="75.94" font-size="8.00" fill="#1F2937" font-weight="bold"><tspan x="17.08" dy="0.00" font-size="8.00">Error</tspan></text>
+<text x="19.67" y="85.54" font-size="8.00" fill="#1F2937" font-weight="bold"><tspan x="19.67" dy="0.00" font-size="8.00">cells</tspan></text>
+<text x="19.78" y="93.74" font-size="6.50" fill="#6B7280"><tspan x="19.78" dy="0.00" font-size="6.50">given</tspan></text>
+<rect x="58" y="150" width="86" height="22" rx="3" fill="#F3F4F6" stroke="#6B7280" stroke-width="0.8"/>
+<text x="74.63" y="163.64" font-size="8.00" fill="#1F2937" font-weight="bold"><tspan x="74.63" dy="0.00" font-size="8.00">20 labeled rows</tspan></text>
+<rect x="66" y="44" width="88" height="20" rx="3" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="0.8"/>
+<text x="101.64" y="56.31" font-size="7.00" fill="#1F2937" font-weight="bold"><tspan x="101.64" dy="0.00" font-size="7.00">Rules</tspan></text>
+<rect x="66" y="72" width="88" height="20" rx="3" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="0.8"/>
+<text x="98.24" y="84.31" font-size="7.00" fill="#1F2937" font-weight="bold"><tspan x="98.24" dy="0.00" font-size="7.00">FD vote</tspan></text>
+<rect x="66" y="100" width="88" height="20" rx="3" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="0.8"/>
+<text x="95.52" y="112.31" font-size="7.00" fill="#1F2937" font-weight="bold"><tspan x="95.52" dy="0.00" font-size="7.00">Stats vote</tspan></text>
+<rect x="186" y="62" width="64" height="40" rx="3" fill="#FFEDD5" stroke="#EA580C" stroke-width="0.8"/>
+<text x="206.00" y="80.74" font-size="8.00" fill="#7C2D12" font-weight="bold"><tspan x="206.00" dy="0.00" font-size="8.00">Router</tspan></text>
+<text x="198.61" y="88.94" font-size="6.50" fill="#6B7280"><tspan x="198.61" dy="0.00" font-size="6.50" font-family="Times New Roman" font-style="italic" font-weight="normal">q</tspan><tspan x="201.86" dy="1.82" font-size="4.55" font-family="Times New Roman" font-style="italic" font-weight="normal">t</tspan><tspan x="203.12" dy="-1.82" font-size="6.50" font-family="Times New Roman" font-style="italic" font-weight="normal"> − λC</tspan><tspan x="217.91" dy="1.82" font-size="4.55" font-family="Times New Roman" font-style="italic" font-weight="normal">t</tspan><tspan x="219.17" dy="-1.82" font-size="6.50" font-family="Times New Roman" font-style="italic" font-weight="normal"> &gt; p</tspan><tspan x="230.06" dy="1.82" font-size="4.55" font-family="Times New Roman" font-style="italic" font-weight="normal">best</tspan></text>
+<rect x="186" y="148" width="64" height="26" rx="3" fill="#FFEDD5" stroke="#EA580C" stroke-width="0.8"/>
+<text x="200.70" y="159.41" font-size="7.00" fill="#7C2D12" font-weight="bold"><tspan x="200.70" dy="0.00" font-size="7.00">Calibrators</tspan></text>
+<text x="194.72" y="167.35" font-size="6.50" fill="#6B7280"><tspan x="194.72" dy="0.00" font-size="6.50" font-family="Times New Roman" font-style="italic" font-weight="normal">P</tspan><tspan x="198.69" dy="0.00" font-size="6.50">(correct) per tier</tspan></text>
+<rect x="298" y="38" width="96" height="22" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="0.8"/>
+<text x="319.91" y="47.41" font-size="7.00" fill="#1E3A8A" font-weight="bold"><tspan x="319.91" dy="0.00" font-size="7.00">Column program</tspan></text>
+<text x="328.79" y="55.34" font-size="6.50" fill="#6B7280"><tspan x="328.79" dy="0.00" font-size="6.50">DSL or LLM</tspan></text>
+<rect x="298" y="70" width="96" height="24" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="0.8"/>
+<text x="325.82" y="80.41" font-size="7.00" fill="#1E3A8A" font-weight="bold"><tspan x="325.82" dy="0.00" font-size="7.00">Per-cell LLM</tspan></text>
+<text x="329.30" y="88.35" font-size="6.50" fill="#6B7280"><tspan x="329.30" dy="0.00" font-size="6.50">table context</tspan></text>
+<rect x="298" y="104" width="96" height="22" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="0.8"/>
+<text x="323.35" y="113.41" font-size="7.00" fill="#1E3A8A" font-weight="bold"><tspan x="323.35" dy="0.00" font-size="7.00">Semantic LLM</tspan></text>
+<text x="323.34" y="121.35" font-size="6.50" fill="#6B7280"><tspan x="323.34" dy="0.00" font-size="6.50">world knowledge</tspan></text>
+<rect x="424" y="64" width="76" height="36" rx="3" fill="#FFFFFF" stroke="#374151" stroke-width="0.8"/>
+<text x="439.47" y="84.47" font-size="7.50" fill="#1F2937" font-weight="bold"><tspan x="439.47" dy="0.00" font-size="7.50">Repaired cells</tspan></text>
+<text x="254.00" y="78.05" font-size="6.50" fill="#1F2937"><tspan x="254.00" dy="0.00" font-size="6.50" font-style="italic">escalate</tspan></text>
+<text x="330.00" y="149.05" font-size="6.50" fill="#1F2937"><tspan x="330.00" dy="0.00" font-size="6.50" font-style="italic">answers</tspan></text>
+</svg>

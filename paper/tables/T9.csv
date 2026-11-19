@@ -1,0 +1,22 @@
+part,system,model,det,labels,hospital,hospital_std,flights,flights_std,beers,beers_std,rayyan,rayyan_std,movies,movies_std
+A. Same protocol (ours),Rules only,–,perfect,"20 rows, random",0.0157480315,2.003086132e-18,0,0,0.4840910393,0.0005940260008,0,0,0.1604394542,0.0002897292374
+A. Same protocol (ours),Statistics only,–,perfect,"20 rows, random",0.9502129984,0.002570879975,0,0,0.06530608564,0.05376945108,0,0,0.004721854578,2.97618027e-06
+A. Same protocol (ours),Rules + statistics (no LLM),–,perfect,"20 rows, random",0.9146259555,0.0005100424266,0,0,0.5182783335,0.0297587881,0,0,0.09830537021,0.0001749131964
+A. Same protocol (ours),Rules + LLM-proposed FDs + statistics,Qwen3-8B (setup calls),perfect,"20 rows, random",0.9146259555,0.0005100424266,0.9322069,0.0007144954372,0.5384656431,0.005208048138,0,0,0.09830537021,0.0001749131964
+A. Same protocol (ours),All free tiers incl. program search (0 per-cell LLM calls),Qwen3-8B (setup calls),perfect,"20 rows, random",0.9505465346,0.002703465515,0.9524943441,0.01810483948,0.9854400494,0.01414552574,0.8611416026,0.001597008493,0.1601336925,0.0008134281511
+A. Same protocol (ours),"Baran (reproduced, our protocol)",none,perfect,"20 rows, random",0.752,0.092,0.969,0.001,0.906,0.032,0.342,0.072,0.83,0.042
+A. Same protocol (ours),"LLM-only (Qwen3-8B, context prompt)",Qwen3-8B,perfect,"20 rows, random",0.9253032414,0.0020347993,0.402398371,0.0006358470267,0.09020052367,0.0007119302003,0.001693032403,8.742701094e-06,0.5556288655,0.0002161262977
+A. Same protocol (ours),"LLM-only (Qwen3-8B, knowledge prompt)",Qwen3-8B,perfect,"20 rows, random",0.5502064416,0.002842384266,0.1355110615,0.0005475713458,0.06942372644,0.0004964732278,0.006588629177,2.20801386e-05,0.3966748543,0.0004455964589
+A. Same protocol (ours),Jellyfish-8B (our run) [a],Jellyfish-8B,perfect,"20 rows, random",0.145017597,0.002400239603,0.008845617207,7.298274033e-06,0.3719568282,0.0001491539065,0.002167645885,7.169940158e-06,0.02704530773,5.970302132e-05
+A. Same protocol (ours),Plain cascade,Qwen3-8B,perfect,"20 rows, random",0.9223365477,0.001201515138,0.9300320195,0.0005083852532,0.9932201839,0.003469759851,0.6882205357,0.00243049334,0.1959011752,0.009136592527
+A. Same protocol (ours),Ours (λ=0),Qwen3-8B,perfect,"20 rows, random",0.9601401743,0.003092737415,0.9457335367,0.01570630869,0.9868294017,0.01542228421,0.8938781174,0.002672427867,0.8838262307,0.006352201497
+A. Same protocol (ours),LLM calls: Ours (λ=0),Qwen3-8B,perfect,"20 rows, random",21.66666667,3.785938897,128,57.47173218,16,4,55,86.60254038,1571.666667,94.29916931
+A. Same protocol (ours),LLM calls: LLM-only (context),Qwen3-8B,perfect,"20 rows, random",485,1,4870,4,4326.666667,1.527525232,922.6666667,3.055050463,7647.666667,5.033222957
+B. Published (copied; other protocols),HoloClean,–,own (denial constraints),–,0.83,,,,,,,,,
+B. Published (copied; other protocols),Baran (paper),no LLM,perfect error detection,20 tuples,0.87,,1,,0.9,,0.52,,,
+B. Published (copied; other protocols),Jellyfish-7B (via LasRepair),"Jellyfish-7B (Mistral-based), no fine-tuning",oracle,none,0.8871,,0.6324,,0.7832,,,,,
+B. Published (copied; other protocols),LasRepair++,GPT-5 instructor + T5-large,oracle,"fine-tunes on sampled tuples (2,000 for large datasets)",0.9632,,0.8798,,0.8894,,,,,
+B. Published (copied; other protocols),IterClean (via TabClean),gpt-5-mini,own (LLM detector + verifier),5 seed tuples,0.95,,0,,0.75,,0,,0.08,
+B. Published (copied; other protocols),Cocoon,Claude 3.5,own (statistical + LLM semantic); human-in-the-loop replaced by LLM-provided ground truth,none,0.9,,0.57,,0.97,,0.86,,0.87,
+B. Published (copied; other protocols),TabClean,GPT-5 family (verdict: GPT-5.x),"errors given (Table VI, per final_verdict_fable.md); llm_only_literature.md: oracle-like / own",adaptive dev set 110-369 rows,0.87,,0.81,,0.94,,0.92,,0.91,
+B. Published (copied; other protocols),"Ours (λ=0), for reference",Qwen3-8B,perfect,20 rows,0.9601401743,,0.9457335367,,0.9868294017,,0.8938781174,,0.8838262307,

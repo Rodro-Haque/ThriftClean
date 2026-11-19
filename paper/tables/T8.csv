@@ -1,0 +1,8 @@
+system,model,det,labels,hospital,flights,beers,rayyan,movies,src
+Cocoon,Claude 3.5,own (statistical + LLM semantic); human-in-the-loop replaced by LLM-provided ground truth,none,0.9,0.57,0.97,0.86,0.87,"Cocoon, arXiv 2410.15547, Table 1"
+TabClean,GPT-5 family (verdict: GPT-5.x),"errors given (Table VI, per final_verdict_fable.md); llm_only_literature.md: oracle-like / own",adaptive dev set 110-369 rows,0.87,0.81,0.94,0.92,0.91,"TabClean, arXiv 2606.25388, Table VI/VII"
+LasRepair++,GPT-5 instructor + T5-large,oracle,"fine-tunes on sampled tuples (2,000 for large datasets)",0.9632,0.8798,0.8894,,,"LasRepair, arXiv 2606.17582, Table III"
+IterClean (re-run by TabClean),gpt-5-mini,own (LLM detector + verifier),5 seed tuples,0.95,0,0.75,0,0.08,"TabClean, arXiv 2606.25388, Table VI/VII"
+Jellyfish-7B (as repair baseline),"Jellyfish-7B (Mistral-based), no fine-tuning",oracle,none,0.8871,0.6324,0.7832,,,"LasRepair, arXiv 2606.17582, Table III"
+"Baran (paper, perfect detection)",no LLM,perfect error detection,20 tuples,0.87,1,0.9,0.52,,published Baran perfect-ED numbers as cited in paper/final_verdict_fable.md
+Baran (re-run in TabClean),no LLM,oracle-like error set / own (as in llm_only_literature.md),20 labeled tuples,0.7,0.32,0.88,0.36,0.8,"TabClean, arXiv 2606.25388, Table VI/VII"
