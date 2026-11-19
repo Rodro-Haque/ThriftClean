@@ -68,17 +68,13 @@ Evaluation uses **perfect error detection**, **20 labeled rows**, and **mean F1 
 **Highlights:**
 - **Dramatically fewer LLM calls:** Cuts LLM usage from thousands of calls down to tens on structured tables (e.g., `485 → 22` on *Hospital*, `4327 → 16` on *Beers*, `923 → 55` on *Rayyan*).
 - **Stronger accuracy than both extremes:** Beats LLM-only on all 5 datasets and outperforms the reproduced Baran baseline on 4 of 5 datasets (including held-out *Movies*).
-- **Tunable cost–quality frontier:** Sweeping $\lambda$ gives a smooth, predictable trade-off between repair F1 and LLM budget—including on semantic-injected variants (`hospital_sem`, `beers_sem`).
+- **Safe abstention:** Cross-fitted confidence thresholding keeps the original value whenever no candidate is trustworthy.
 
 ### Accuracy vs. LLM Cost Frontier
 
 ![Accuracy vs. LLM Call Frontier](paper/figures/frontier.png)
 
-### Budget Trade-Off Across $\lambda$ (Including Semantic Variants)
-
-![Budget Trade-Off Across Lambda](paper/figures/lambda_budget.png)
-
-> Full paper tables (`T1`–`T9`) are in [`paper/tables/final_tables.md`](paper/tables/final_tables.md) (plus `tables.tex` and individual `T*.csv` files; see [`paper/tables/README.md`](paper/tables/README.md)). Additional figures (`lambda`, `lambda_cov`, `frontier_cov`) are in [`paper/figures/`](paper/figures/), and published/LLM-only baseline summaries live in [`results/summary/`](results/summary/).
+> Full paper tables (`T1`–`T9`) are in [`paper/tables/final_tables.md`](paper/tables/final_tables.md) (plus `tables.tex` and individual `T*.csv` files; see [`paper/tables/README.md`](paper/tables/README.md)). Additional figures are in [`paper/figures/`](paper/figures/), and published/LLM-only baseline summaries live in [`results/summary/`](results/summary/).
 
 ---
 
